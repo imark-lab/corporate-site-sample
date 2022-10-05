@@ -12,10 +12,6 @@ interface Post {
   const apiKey = process.env.NEXT_PUBLIC_MICRO_CMS_API_KEY
   const writeApiKey = process.env.NEXT_PUBLIC_MICRO_CMS_WRITE_API_KEY
 
-  console.log(serviceId)
-  console.log(apiKey)
-  console.log(writeApiKey)
-
   const params = (method: string, data?: {}) => {
     if (data) {
       return {
