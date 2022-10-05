@@ -61,7 +61,6 @@ const Slider = ({ items }) => {
       animation="fade"
       navButtonsAlwaysInvisible={items.length == 1 ? true : false}
       indicators={false}
-      timeout={300}
     >
       {
         items.map((item, index) =>  (
